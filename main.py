@@ -29,7 +29,7 @@ min_bruteforce = 3
 x = {}
 reputation = {}
 
-with open('/Users/patryk/Desktop/bf-projekt/plik.txt', 'r') as f:
+with open('plik.txt', 'r') as f:
 
     for line in f:
         x = re.findall(ip_regex,line)
